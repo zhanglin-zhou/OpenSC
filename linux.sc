@@ -209,7 +209,7 @@ def publishhorizonrxut():
 # Stage all python deploy files.
 def getPythonPaths():
     nodes = []
-    pythonPP = stagePP
+    pythonPP = stageP
     for headerDir in pythonUtilDir:
         sourceDirPath = '#bora/' + headerDir
         destDirPath = Dir(pythonPP).abspath
